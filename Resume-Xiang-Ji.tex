@@ -1,0 +1,173 @@
+% LaTeX file for resume 
+% This file uses the resume document class (res.cls)
+
+\documentclass[margin]{res} 
+% the margin option causes section titles to appear to the left of body text 
+\oddsidemargin -.1in
+\evensidemargin -.1in
+\textwidth=5.1in % increase textwidth to get smaller right margin
+\setlength{\textheight}{9in}
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+\usepackage{newcent}   % uses new century schoolbook postscript font
+%\usepackage{pxfonts}
+%\addtolength{\textheight}{0.1in}
+
+\begin{document} 
+
+% Center the name over the entire width of resume:
+ \moveleft.5\hoffset\centerline{\Large\bf Xiang Ji}
+% Draw a horizontal line the whole width of resume:
+ \moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}\smallskip
+% address begins here
+% Again, the address lines must be centered over entire width of resume:
+ \moveleft.5\hoffset\centerline{jxpatpat@gmail.com}
+ \moveleft.5\hoffset\centerline{(415) 819-1595}
+ \moveleft.5\hoffset\centerline{1559 22nd Ave, San Francisco, CA 94122}
+
+
+
+
+\begin{resume} 
+ 
+\section{Objective}
+
+{\bf Software Engineer, Machine Learning}
+
+
+
+\section{Qualifications}
+
+{\bf Programming languages}\\
+Java, Python, C, C++, Scala, Scheme 
+
+{\bf Developing tools}\\
+{\it Machine learning:} Mahout, MATLAB\\
+{\it Distributed system:} Hadoop, Pig, Scalding, Storm, Summingbird\\
+{\it Cross-protocol development:} Thrift, Finagle\\
+{\it Efficiency tooling:} Intellij IDEA, Eclipse, Mesos, Maven, Ant\\
+{\it Neural network simulation:} Nengo, NuPic
+
+{\bf Experienced fields}
+\begin{itemize} \itemsep -2pt
+\item Neural network modeling 
+\item Large scale machine learning system design / implementation
+\item Algorithm and data structure
+\item Basic knowledge in security, OS, UI, computer vision, etc.
+\end{itemize}
+
+ 
+
+\section{Education}
+
+ {\bf Master of Mathematics, Computer Science} \hfill 2012.4 -- 2014.4 (expected)\\
+ University of Waterloo, Waterloo, Canada\\
+ {\bf Thesis topic:} Path Integration with Velocity-Controlled Oscillators\\
+ {\bf Relevant courses:} Computational Neuroscience,  Applied Machine Learning,\\
+ Probabilistic Inference and Machine Learning
+ 
+ {\bf Exchange Student, Computer Science} \hfill 2011.9 -- 2012.3\\
+ University of Waterloo, Waterloo, Canada\\
+ {\bf Thesis topic:} Hippocampus Modeling on Spatial Alternation Task\\
+ {\bf Relevant courses:} User Interfaces, Machine Learning, Algorithms, \\
+ Computer Vision
+ 
+ {\bf Bachelor of Engineering, Computer Science} \hfill 2008.9 -- 2012.6\\
+ Tsinghua University, Beijing, China\\
+ {\bf Relevant courses:} Artificial Intelligence, Operating System, Network, \\
+ Computer Architecture, Data Structures
+
+ 
+ 
+ \section{Internship}
+
+ {\bf SDE -- Twitter Inc., San Francisco} \hfill 2013.8 -- 2013.12 (expected)\\
+ Developing a large scale real-time recommendation system infrastructure
+  \begin{itemize} \itemsep -2pt
+  \item Serving most of Twitter's recommendation products
+  \item Using content-boosted collaborative filtering with random walk\\ model on Hadoop / Storm
+  \end{itemize}
+
+ {\bf SDET -- Hulu LLC., Beijing} \hfill 2010.9 -- 2010.12\\
+ Developed recommendation system unit tests
+  \begin{itemize} \itemsep -2pt
+  \item Implemented Automatic testing in Ruby and Java
+  \item Deployed test coverage tool Emma for java tests
+  \end{itemize} 
+
+
+
+\section{Projects} 
+
+ {\bf Modeling Path Integration using Velocity Controlled Oscillators}\\
+ Computational Neuroscience
+ \begin{itemize}  \itemsep -2pt
+  \item Simulated rat's hippocampus using {\raise.17ex\hbox{$\scriptstyle\sim$}}50,000 virtual neurons
+  \item Built a virtual rat that is able to navigate in a 2D space
+  \item Included stabilizing mechanisms and sensory inputs
+ \end{itemize}
+ 
+ {\bf Multi-level Position Reconstruction from Hippocampal Place Cells}\\
+ Applied Machine Learning
+ \begin{itemize}  \itemsep -2pt
+  \item Implemented machine learning algorithms on {\raise.17ex\hbox{$\scriptstyle\sim$}}20GB neural data
+  \item Designed multiple feature levels for faster and more accurate learning
+  \item Involved Bayesian networks in learning on neural data
+  \item Average error reduced to 1/3 of previous results
+ \end{itemize}
+ 
+ {\bf Private Learning with Homomorphic Encryption}\\
+ Probabilistic Inference and Machine Learning
+  \begin{itemize}  \itemsep -2pt
+  \item Reviewed different private machine learning approaches
+  \item Discussed the difference of schemes and algorithms
+  \item Evaluated algorithm efficiency based on feature amount and data size
+ \end{itemize}
+ 
+  {\bf Approaches to Handwritten Digit Recognition}\\
+ Machine Learning
+  \begin{itemize}  \itemsep -2pt
+  \item Implemented several ML algorithms on recognizing handwritten digits
+  \item Compared time and accuracy of logistic regression, SVM and ANN
+ \end{itemize}
+ 
+ {\bf Talking Avatar with Facial Expressions on Android Platform}\\
+ Summer workshop
+  \begin{itemize} \itemsep -2pt
+   \item Built a virtual face with expressions and voice on Android platform
+   \item Involved in expression modeling, audio-video sync, UI design, etc.
+   \item Used Java and C, including JNI
+ \end{itemize}
+
+
+
+\section{Publications} 
+
+ {\bf Articles in Refereed Journals}\\
+ \begin{enumerate} \itemsep -2pt
+\item {\bf X. Ji}, S. Kushagra, J. Orchard, "Updating the Entorhinal Cortex Fourier Model with Visual-Sensory Input", {\em Canadian Conference on Artificial Intelligence (AI) 2013}.
+\item J. Orchard, H Yang, {\bf X. Ji}, "Does the Entorhinal Cortex use the Fourier Transform?",  {\em Canadian Conference on Artificial Intelligence (AI) 2013}.
+\item B. Liu, G. Wu, Z. Wang, {\bf X. Ji}, ``Semantic integration of differently asynchronous audio–visual information in videos of real-world events in cognitive processing: An ERP study'', {\em Neuroscience Letters}, July 2011. 
+\end{enumerate}
+
+
+\section{Awards}
+
+David R. Cheriton Graduate Scholarship, \$10,000 \hfill 2012 -- 2013\\
+UW Special Graduate Scholarship, \$4,000 \hfill 2012 -- 2013\\
+Outstanding Student Leader, Tsinghua University \hfill 2011\\
+Tencent Scholarship, RMB 1,000 \hfill 2009\\
+National Physics Competition for University Students, Second Prize \hfill 2009\\
+National Physics Olympiad, First Prize \hfill 2008\\
+
+
+
+\section{Interests}
+{\bf Machine learning:} Deep learning; Large scale / parallel / online ML schemes\\
+{\bf Brain simulation:} How can bottom-up methods meet top-down methods\\
+{\bf Others:} Music arrangement; Photography; Jogging; Cycling; Gaming\\
+
+\end{resume} 
+\end{document} 
+
+
+
